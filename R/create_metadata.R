@@ -24,3 +24,5 @@ funder_metadata <- crossing(siteID, blockID, treatment) %>%
          blockID = paste0(str_sub(siteID, 1, 3), blockID))
 
 write_csv(funder_metadata, "Funder_2022_metadata.csv")
+
+####
